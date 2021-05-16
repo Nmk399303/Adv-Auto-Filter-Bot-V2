@@ -137,7 +137,7 @@ async def cb_navg(bot, update: CallbackQuery):
     
     reply_markup = InlineKeyboardMarkup(temp_results)
     
-    text=f"<i>Found</i> <code>{leng}</code> <i>Results For Your Query:</i> <code>{query}</code> \n\n <u><b><i>📌 താഴെ കാണുന്ന ജോയിൻ ചാനലിൽ ക്ലിക്ക് ചെയ്‌തതിനു ശേഷം മാത്രം മൂവി ബട്ടണിൽ ക്ലിക്ക് ചെയ്യുക 👇👇👇</i></b></u>"
+    text=f"<b><i>Found</i></b> <code>{leng}</code> <b><i>Results For Your Query:</i></b> <code>{query}</code> \n\n <b><i>➠Cʜᴀɴɴᴇʟ : @tamilrokers_group</i></b>"
         
     try:
         await update.message.edit(
