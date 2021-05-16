@@ -108,8 +108,8 @@ async def auto_filter(bot, update):
 
             results.append(
            [
-                    InlineKeyboardButton("📜 JOIN CHANNEL" , url="https://t.me/joinchat/d8gbo7WMFKQ3NzRl") 
-                ]
+                    InlineKeyboardButton("📜 JOIN OUR CHANNEL" , url="https://t.me/joinchat/d8gbo7WMFKQ3NzRl") 
+                ] 
             ) 
 
             if pm_file_chat: 
@@ -205,7 +205,7 @@ async def auto_filter(bot, update):
         try:
             await bot.send_message(
                 chat_id = update.chat.id,
-                text=f"<b><i>Found</i></b> <code>{(len_results)}</code> <b><i>Results For Your Query:</i></b> <code>{query}</code> \n\n <b><i>➠Cʜᴀɴɴᴇʟ : @tamilrokers_group</i></b>",
+                text=f"<b><i>Found {(len_results)} Results For Your Query:</i></b> <code>{query}</code> \n\n <b><i>➠Cʜᴀɴɴᴇʟ : @TAMILROKERS12</i></b>",
                 reply_markup=reply_markup,
                 parse_mode="html",
                 reply_to_message_id=update.message_id
