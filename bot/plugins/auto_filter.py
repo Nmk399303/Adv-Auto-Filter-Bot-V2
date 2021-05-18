@@ -128,8 +128,8 @@ async def auto_filter(bot, update):
             )
         
     else:
-        "Please Check the spelling or the movie might not be available 🚫/ Not Released Yet ❌" 
-         return
+        reply_text("Please Check the spelling or the movie might not be available 🚫/ Not Released Yet ❌") 
+         
     
 
     if len(results) == 0: # double check
