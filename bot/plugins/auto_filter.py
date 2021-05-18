@@ -82,8 +82,7 @@ async def auto_filter(bot, update):
             
 
             # add emoji down below inside " " if you want..
-            button_text = f"📁 {file_name}"
-            alert_text = ("Please Check the spelling or the movie might not be available 🚫/ Not Released Yet ❌",show_alert=True) 
+            button_text = f"📁 {file_name}" 
                           
 
             if file_type == "video":
