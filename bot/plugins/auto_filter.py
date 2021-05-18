@@ -128,7 +128,7 @@ async def auto_filter(bot, update):
             )
         
     else:
-        return # return if no files found for that query
+        "Please Check the spelling or the movie might not be available 🚫/ Not Released Yet ❌" 
     
 
     if len(results) == 0: # double check
