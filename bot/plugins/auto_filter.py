@@ -106,10 +106,7 @@ async def auto_filter(bot, update):
             if len(results) >= max_results:
                 break
 
-            ibuttons.append(
-           [
-                    InlineKeyboardButton("📜 JOIN OUR CHANNEL" , url="https://t.me/joinchat/d8gbo7WMFKQ3NzRl") 
-                ] 
+            
             ) 
 
             if pm_file_chat: 
