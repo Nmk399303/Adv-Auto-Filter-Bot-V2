@@ -106,9 +106,6 @@ async def auto_filter(bot, update):
             if len(results) >= max_results:
                 break
 
-            
-            ) 
-
             if pm_file_chat: 
                 unique_id = filter.get("unique_id")
                 if not FIND.get("bot_details"):
