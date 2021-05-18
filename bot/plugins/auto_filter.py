@@ -128,7 +128,7 @@ async def auto_filter(bot, update):
             )
         
     else:
-        reply_text("Please Check the spelling or the movie might not be available 🚫/ Not Released Yet ❌") 
+        await update.reply_text("Please Check the spelling or the movie might not be available 🚫/ Not Released Yet ❌") 
          
     
 
